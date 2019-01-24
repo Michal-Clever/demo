@@ -15,7 +15,6 @@ public class MainController {
         return "index";
     }
 
-    
     @GetMapping("/podstrona")
     @ResponseBody
     public String podstrona() {
